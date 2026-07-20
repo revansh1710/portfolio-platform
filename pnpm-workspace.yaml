@@ -1,6 +1,7 @@
 autoInstallPeers: true
 allowBuilds:
   '@parcel/watcher': false
+  bcrypt: set this to true or false
   esbuild: false
   less: false
   lmdb: false
