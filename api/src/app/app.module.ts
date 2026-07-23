@@ -17,6 +17,7 @@ import { AuthModule } from '../modules/auth/auth.module';
         MONGODB_URI: joi.string().required(),
         JWT_SECRET: joi.string().min(32).required(),
         JWT_REFRESH_SECRET: joi.string().min(32).required(),
+        JWT_EXPIRES_IN: joi.string().required(),
         REDIS_HOST: joi.string().required(),
         REDIS_PORT: joi.number().required(),
         RABBITMQ_URL: joi.string().required(),
